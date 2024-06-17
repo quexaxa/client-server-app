@@ -70,7 +70,7 @@ const RequestsList = () => {
                   <NavLink to={`/editRequest/${request._id}`}>
                     <button>Редактировать</button>
                   </NavLink>
-                  <button onClick={() => deleteRequest(request._id)}>Удалить</button>
+                  <button onClick={() => deleteRequest(request._id)}>Удалить!</button>
                 </td>
               </tr>
             ))
